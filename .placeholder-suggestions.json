@@ -1,0 +1,15 @@
+{
+  "FahrzeugerfassungDialog.tsx": {
+    "kennzeichen": "z. B. HH-AB 1234",
+    "fahrzeugbezeichnung": "z. B. VW Transporter",
+    "fahrer": "Fahrer zuweisen",
+    "status": "z. B. Verfügbar, Im Einsatz",
+    "bemerkung": "Besonderheiten, Wartungshinweise, Anmerkungen..."
+  },
+  "FahrerverwaltungDialog.tsx": {
+    "vorname": "z. B. Max",
+    "nachname": "z. B. Müller",
+    "telefon": "z. B. 040 123456789",
+    "email": "z. B. max.mueller@beispiel.de"
+  }
+}

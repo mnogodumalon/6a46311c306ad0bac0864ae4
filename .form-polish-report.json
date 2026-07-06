@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Fahrzeugerfassung": {
+      "placeholders_set": 5,
+      "defaults_keys": ["status"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten-Entity für Fahrzeugverwaltung. Keine Number-Felder, keine Datums-Paare, keine applookup-Ketten zu Preisen. Status wird sinnvoll auf 'Verfügbar' vorbelegt."
+    },
+    "Fahrerverwaltung": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Kontakt-Entity für Fahrerverwalting. Nur Textfelder (Name, Telefon, E-Mail), keine berechenbaren Größen. fieldOrder bereits gut (Vorname+Nachname nebeneinander)."
+    }
+  }
+}

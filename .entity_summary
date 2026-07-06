@@ -1,0 +1,3 @@
+- Fahrzeugerfassung (fahrzeugerfassung): kennzeichen[string/text], fahrzeugbezeichnung[string/text], fahrer[applookup/select], standort[geo], status[lookup/radio], bemerkung[string/textarea]
+  → fahrer links to app_id 6a46310a1479b5de9937276a
+- Fahrerverwaltung (fahrerverwaltung): vorname[string/text], nachname[string/text], telefon[string/tel], email[string/email]

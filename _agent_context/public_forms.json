@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "fahrzeugerfassung",
+      "app_id": "6a46310ccdac4760b92c73cd",
+      "path": "/rest/apps/6a46310ccdac4760b92c73cd/records",
+      "allowed_fields": [
+        "kennzeichen",
+        "fahrzeugbezeichnung",
+        "standort",
+        "status",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Fahrzeugerfassung — Formular"
+    },
+    {
+      "entity": "fahrerverwaltung",
+      "app_id": "6a46310a1479b5de9937276a",
+      "path": "/rest/apps/6a46310a1479b5de9937276a/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "telefon",
+        "email"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Fahrerverwaltung — Formular"
+    }
+  ]
+}
